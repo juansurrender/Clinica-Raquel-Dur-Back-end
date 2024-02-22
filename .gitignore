@@ -1,0 +1,6 @@
+#ficheros a ignorar al subir en el repositorio git
+#son ficheros locales o privados con claves, y no interesa
+node_modules
+package-lock.json
+.env
+dist
