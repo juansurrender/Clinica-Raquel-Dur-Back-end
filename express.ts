@@ -58,6 +58,7 @@ app.post("/login", async (request: Request, response: Response) => {
   }
 });
 
+
         
 //        const query = `SELECT * FROM usuarios WHERE email = '${mibody.email}' AND password = '${mibody.password}'`
 //        baseDatos.all(query, [], (error: any, datosDevueltos: Array<any>) => {
