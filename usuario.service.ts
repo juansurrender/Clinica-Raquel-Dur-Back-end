@@ -44,7 +44,7 @@ export function logearusuario (mibody:Login){
                 } else {
                     let usuarioObtenido = datosDevueltos[0];
                     delete usuarioObtenido.password;
-                    resolve('usuarioObtenido')
+                    resolve(usuarioObtenido)
                 }
 
             }
